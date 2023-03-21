@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pill {
+  @apply rounded-full border-[1.5px] border-black;
+}
+
+.task {
+  @apply p-2 bg-cyan-200 drop-shadow-md border-[1.5px] border-black rounded-lg;
+}
+
+.animate-scale-up-down {
+  animation: scale-up-down 0.3s ease-in-out;
+  @keyframes scale-up-down {
+    0%, 100% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.animate-disappear {
+  animation: disappear 0.3s ease-out;
+  @keyframes disappear {
+    from {
+      transform: translateX(0px);
+      opacity: 100%;
+    }
+    to {
+      transform: translateX(20px);
+      opacity: 0%;
+    }
+  }
+}
+
+.showTaskForm {
+  @apply -translate-y-[450px];
+}
