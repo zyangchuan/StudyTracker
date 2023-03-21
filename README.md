@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# StudyTracker
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A web app that helps you track your studies.
+
+## Technologies used
+
+1. Vue.js (Javascript framework)
+2. Nuxt3 (Vue.js framework)
+3. Tailwind CSS (CSS framework)
 
 ## Setup
 
