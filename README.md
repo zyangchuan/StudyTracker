@@ -2,6 +2,8 @@
 
 A web app that helps you track your studies.
 
+<img src="docs/images/screenshot.png" alt="Screenshot" width="50%">
+
 ## Technologies used
 
 1. Vue.js (Javascript framework)
